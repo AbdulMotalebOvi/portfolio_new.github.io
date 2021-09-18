@@ -1,0 +1,121 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?1cb13f61e8630a4dabceff1b25c622ad") format("truetype"),
+url("./flaticon.woff?1cb13f61e8630a4dabceff1b25c622ad") format("woff"),
+url("./flaticon.woff2?1cb13f61e8630a4dabceff1b25c622ad") format("woff2"),
+url("./flaticon.eot?1cb13f61e8630a4dabceff1b25c622ad#iefix") format("embedded-opentype"),
+url("./flaticon.svg?1cb13f61e8630a4dabceff1b25c622ad#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "inspiration": "\f101",
+    "user-experience": "\f102",
+    "psd-file-format": "\f103",
+    "search": "\f104",
+    "achieving-goals": "\f105",
+    "customer": "\f106",
+    "complete": "\f107",
+    "coffee": "\f108",
+    "monitor": "\f109",
+    "responsive-symbol-with-a-widescreen-monitor-a-cellphone-and-a-tablet": "\f10a",
+    "landing-page": "\f10b",
+    "sign": "\f10c",
+    "call": "\f10d",
+    "paper-plane": "\f10e",
+    "planet-earth": "\f10f",
+    "comment": "\f110",
+    "twitter": "\f111",
+    "facebook-app-symbol": "\f112",
+    "instagram": "\f113",
+    "pin": "\f114",
+    "envelope": "\f115",
+    "right-arrow": "\f116",
+    "heart": "\f117",
+    "upwards-arrow": "\f118",
+);
+
+.flaticon-inspiration:before {
+    content: map-get($flaticon-map, "inspiration");
+}
+.flaticon-user-experience:before {
+    content: map-get($flaticon-map, "user-experience");
+}
+.flaticon-psd-file-format:before {
+    content: map-get($flaticon-map, "psd-file-format");
+}
+.flaticon-search:before {
+    content: map-get($flaticon-map, "search");
+}
+.flaticon-achieving-goals:before {
+    content: map-get($flaticon-map, "achieving-goals");
+}
+.flaticon-customer:before {
+    content: map-get($flaticon-map, "customer");
+}
+.flaticon-complete:before {
+    content: map-get($flaticon-map, "complete");
+}
+.flaticon-coffee:before {
+    content: map-get($flaticon-map, "coffee");
+}
+.flaticon-monitor:before {
+    content: map-get($flaticon-map, "monitor");
+}
+.flaticon-responsive-symbol-with-a-widescreen-monitor-a-cellphone-and-a-tablet:before {
+    content: map-get($flaticon-map, "responsive-symbol-with-a-widescreen-monitor-a-cellphone-and-a-tablet");
+}
+.flaticon-landing-page:before {
+    content: map-get($flaticon-map, "landing-page");
+}
+.flaticon-sign:before {
+    content: map-get($flaticon-map, "sign");
+}
+.flaticon-call:before {
+    content: map-get($flaticon-map, "call");
+}
+.flaticon-paper-plane:before {
+    content: map-get($flaticon-map, "paper-plane");
+}
+.flaticon-planet-earth:before {
+    content: map-get($flaticon-map, "planet-earth");
+}
+.flaticon-comment:before {
+    content: map-get($flaticon-map, "comment");
+}
+.flaticon-twitter:before {
+    content: map-get($flaticon-map, "twitter");
+}
+.flaticon-facebook-app-symbol:before {
+    content: map-get($flaticon-map, "facebook-app-symbol");
+}
+.flaticon-instagram:before {
+    content: map-get($flaticon-map, "instagram");
+}
+.flaticon-pin:before {
+    content: map-get($flaticon-map, "pin");
+}
+.flaticon-envelope:before {
+    content: map-get($flaticon-map, "envelope");
+}
+.flaticon-right-arrow:before {
+    content: map-get($flaticon-map, "right-arrow");
+}
+.flaticon-heart:before {
+    content: map-get($flaticon-map, "heart");
+}
+.flaticon-upwards-arrow:before {
+    content: map-get($flaticon-map, "upwards-arrow");
+}

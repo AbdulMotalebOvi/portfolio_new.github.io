@@ -1,0 +1,122 @@
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    #Resume .circle {
+      margin: auto 7px;
+  }
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    #Resume .circle {
+      /* margin: auto 218px; */
+      /* margin: auto 230px; */
+      /* left: 30%; */
+      margin-left: 1%;
+  }
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    #about .col-right p {
+      width: 50%;    
+      margin: auto;
+    }
+    #about .col-right a {
+      margin-top: 1rem;
+    }
+    #Resume .heading {
+      margin-top: 36px;
+      
+  }
+  #Resume .circle {
+    /* margin: auto 218px; */
+    margin: auto 230px;
+}
+}
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+      .container{
+          width: 100%;
+      }
+      img{
+          width: 100%;
+      }
+      #My_team p {
+     
+        width: 100%;
+        
+    }
+    #Resume .heading {
+      margin-top: 35px;
+     
+  }
+  #Resume .circle {
+    margin: auto 58px;
+  }
+  #hire .hire_desc {
+  
+  margin-top: 5rem;
+  }
+  #hire .hire_desc p {
+  width: 100%;
+  
+  }
+  #navigation {
+  position: fixed;
+  height: auto;
+  top: 7px;
+  left: 0%;
+  z-index: 100;
+  }
+  .mt-5, .my-5 {
+    margin-top: -1rem!important;
+  }
+  #footer{
+    height: 100%;
+  }
+        
+}
